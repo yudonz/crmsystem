@@ -1,26 +1,33 @@
 package com.crazycode;
 
-import com.crazycode.mapper.UsersMapper;
-import com.crazycode.mapper.UsersRoleMapper;
-import com.crazycode.pojo.Users;
-import com.crazycode.pojo.UsersRole;
+
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.segments.MergeSegments;
+import com.crazycode.entity.Member;
+import com.crazycode.mapper.MemberMapper;
+import com.crazycode.service.IMemberService;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.List;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
 class CrmsystemJspApplicationTests {
 
     @Autowired
     private DataSource dataSource;
+
     @Autowired
-    private UsersMapper usersMapper;
+    private MemberMapper memberMapper;
     @Autowired
-    private UsersRoleMapper usersRoleMapper;
+    private IMemberService iMemberService;
 
     @Test
     void contextLoads() throws SQLException {
@@ -28,15 +35,31 @@ class CrmsystemJspApplicationTests {
     }
 
     @Test
-    void test1(){
-        List<Users> users = usersMapper.selectAll();
-        System.out.println(users);
+    void test2() {
+        Member byId = iMemberService.getById(1);
+        System.out.println(byId);
+        List<Member> list = iMemberService.list();
+        System.out.println(list);
+//        iMemberService.getOne()
     }
 
     @Test
-    void test2(){
-        List<UsersRole> usersRoles = usersRoleMapper.selectAll();
-        System.out.println(usersRoles);
+    void test1() {
+        Member member = memberMapper.selectById("1");
+        System.out.println(member);
+//        EntityWrapper<Member> qryWrapper = new EntityWrapper<>();
+//        memberMapper.selectList(queryWrapper);
+        Member member1=new Member();
+//        member1.setId(7);
+        member1.setName("liwei");
+        member1.setNickName("wei");
+        int insert = memberMapper.insert(member1);
+        System.out.println(member1);
+//        QueryWrapper<Member> ew = new QueryWrapper<>();
+//        Member member2 = memberMapper.selectOne(member);
+//        System.out.println(member2);
+
+
     }
 
 }
