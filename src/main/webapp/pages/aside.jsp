@@ -37,12 +37,12 @@
 				<ul class="treeview-menu">
 					<li id="system-setting">
 						<a
-						href="${pageContext.request.contextPath}/pages/user-list.jsp"> <i
+						href="${pageContext.request.contextPath}/user/user-list"> <i
 							class="fa fa-circle-o"></i> 用户管理
 					</a>
 					</li>
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/pages/role-list.jsp"> <i
+						href="${pageContext.request.contextPath}/role/role-list/1/2"> <i
 							class="fa fa-circle-o"></i> 角色管理
 					</a></li>
 					<li id="system-setting"><a

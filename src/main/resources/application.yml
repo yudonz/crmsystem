@@ -26,6 +26,15 @@ spring:
 #  mapper-locations: classpath:com/crazycode/mapper/*.xml
 #  config-location: classpath:mybatis-config.xml
 
+mybatis:
+  #开启驼峰命名法
+  configuration:
+    map-underscore-to-camel-case: true
+
 mybatis-plus:
   mapper-locations: crazycode/mapper/*.xml
   type-aliases-package: com.crazycode.entity
+
+pagehelper:
+  reasonable: true
+  support-methods-arguments: true

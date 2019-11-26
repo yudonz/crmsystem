@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.List;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class UserTest {
@@ -28,7 +30,22 @@ public class UserTest {
 
         Users one = usersService.getOne(qw);
         System.out.println(one);
-
     }
 
+    @Test
+    public void selectAll(){
+        List<Users> list = usersService.list();
+        list.forEach(System.out::println);
+    }
+
+    @Test
+    public void save(){
+        Users user=new Users();
+        user.setUsername("chenhao");
+        user.setPassword("123");
+        user.setEmail("@163");
+
+        boolean save = usersService.save(user);
+        System.out.println(save);
+    }
 }

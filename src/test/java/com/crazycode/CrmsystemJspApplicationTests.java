@@ -58,8 +58,8 @@ class CrmsystemJspApplicationTests {
 //        QueryWrapper<Member> ew = new QueryWrapper<>();
 //        Member member2 = memberMapper.selectOne(member);
 //        System.out.println(member2);
-
-
     }
+
+
 
 }
