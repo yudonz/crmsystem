@@ -161,29 +161,29 @@
                                         </c:choose>
 									</td>
                                     <td class="text-center">
-                                        <a href="${pageContext.request.contextPath}/pages/user-show1.jsp"
+                                        <a href="${pageContext.request.contextPath}/user/detail/${user.id}"
                                            class="btn bg-olive btn-xs">详情</a>
-                                        <a href="${pageContext.request.contextPath}/pages/user-role-add.jsp"
+                                        <a href="${pageContext.request.contextPath}/user/user-role-add/${user.id}"
                                            class="btn bg-olive btn-xs">添加角色</a>
                                     </td>
                                 </tr>
                             </c:forEach>
 
 
-                            <tr>
-                                <td><input name="ids" type="checkbox"></td>
-                                <td>1</td>
-                                <td>陈豪</td>
-                                <td>chenhao@qq.com</td>
-                                <td>14567893451</td>
-                                <td>未开启</td>
-                                <td class="text-center">
-                                    <a href="${pageContext.request.contextPath}/pages/user-show1.jsp"
-                                       class="btn bg-olive btn-xs">详情</a>
-                                    <a href="${pageContext.request.contextPath}/pages/user-role-add.jsp"
-                                       class="btn bg-olive btn-xs">添加角色</a>
-                                </td>
-                            </tr>
+<%--                            <tr>--%>
+<%--                                <td><input name="ids" type="checkbox"></td>--%>
+<%--                                <td>1</td>--%>
+<%--                                <td>陈豪</td>--%>
+<%--                                <td>chenhao@qq.com</td>--%>
+<%--                                <td>14567893451</td>--%>
+<%--                                <td>未开启</td>--%>
+<%--                                <td class="text-center">--%>
+<%--                                    <a href="${pageContext.request.contextPath}/pages/user-show1.jsp"--%>
+<%--                                       class="btn bg-olive btn-xs">详情</a>--%>
+<%--                                    <a href="${pageContext.request.contextPath}/pages/user-role-add.jsp"--%>
+<%--                                       class="btn bg-olive btn-xs">添加角色</a>--%>
+<%--                                </td>--%>
+<%--                            </tr>--%>
 
                             </tbody>
                             <!--

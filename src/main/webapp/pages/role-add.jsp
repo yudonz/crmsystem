@@ -191,7 +191,8 @@
                         roleDesc: $('input[name="roleDesc"]').eq(0).val(),
                         _method: "put"
                     }, function (data) {
-						console.log("resp:"+data)
+						console.log("resp:"+data);
+						alert(data);
                     })
                 })
             })

@@ -48,4 +48,16 @@ public class UserTest {
         boolean save = usersService.save(user);
         System.out.println(save);
     }
+
+    @Test
+    public void selectById(){
+        Users user = usersService.selectById("ab07416d-a153-11e9-b4b3-74d02bd4fd82");
+        System.out.println(user);
+    }
+
+    @Test
+    public void addRole(){
+//        boolean b = usersService.addRoleToUser("1", "2");
+//        System.out.println(b);
+    }
 }

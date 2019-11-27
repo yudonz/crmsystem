@@ -25,7 +25,7 @@
 				href="${pageContext.request.contextPath}/pages/main.jsp"><i
 					class="fa fa-dashboard"></i> <span>首页</span></a></li>
 
-			<li class="treeview"><a href="#"> <i class="fa fa-cogs"></i>
+			<li class="treeview"><a href="#" onclick="return false"> <i class="fa fa-cogs"></i>
 					<span>系统管理</span> <span class="pull-right-container"> <i
 						class="fa fa-angle-left pull-right"></i>
 				</span>
@@ -42,11 +42,11 @@
 					</a>
 					</li>
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/role/role-list/1/2"> <i
+						href="${pageContext.request.contextPath}/role/role-list/1/6"> <i
 							class="fa fa-circle-o"></i> 角色管理
 					</a></li>
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/pages/permission-list.jsp">
+						href="${pageContext.request.contextPath}/permission/permission-list">
 							<i class="fa fa-circle-o"></i> 资源权限管理
 					</a></li>
 					<li id="system-setting">
