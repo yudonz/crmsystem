@@ -23,27 +23,11 @@ import lombok.experimental.Accessors;
 public class Member implements Serializable {
     @TableId(value = "id",type = IdType.UUID)
     private String id;
-
-    /**
-     * ????
-     */
     private String name;
-
-    /**
-     * ?ǳ
-     */
     @TableField("nickName")
     private String nickName;
-
-    /**
-     * ?绰???
-     */
     @TableField("phoneNum")
     private String phoneNum;
-
-    /**
-     * ???
-     */
     private String email;
 
 

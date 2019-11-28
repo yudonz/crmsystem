@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @since 2019-11-26
  */
 public interface MemberMapper extends BaseMapper<Member> {
-    Member selectOne(Member member);
+    Member selectById(String id);
 }

@@ -37,7 +37,7 @@ public class RoleController {
         System.out.println("查询");
         PageHelper.startPage(pageNum, pageSize);
         List<Role> list = roleService.list();
-        list.forEach(System.out::println);
+//        list.forEach(System.out::println);
 
         PageInfo pageInfo = new PageInfo(list);
         ModelAndView mv = new ModelAndView("pages/role-list");

@@ -1,8 +1,3 @@
-server:
-  port: 8899
-  servlet:
-    context-path: /quick
-
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -31,7 +26,7 @@ mybatis-plus:
   mapper-locations: crazycode/mapper/*.xml
   type-aliases-package: com.crazycode.entity
   configuration:
-    lazy-loading-enabled: true
+    lazy-loading-enabled: false
     map-underscore-to-camel-case: true
 
 pagehelper:
