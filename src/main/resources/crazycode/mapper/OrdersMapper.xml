@@ -20,8 +20,11 @@
         <result property="orderStatus" column="orderStatus"/>
         <result property="productId" column="productId"/>
         <result property="memberId" column="memberId"/>
-        <association property="product" select="com.crazycode.mapper.ProductMapper.selectById" column="productId"></association>
-        <association property="member" select="com.crazycode.mapper.MemberMapper.selectById" column="memberId"></association>
+        <association property="product" select="com.crazycode.mapper.ProductMapper.selectById" column="productId"/>
+        <association property="member" select="com.crazycode.mapper.MemberMapper.selectById"
+                     column="memberId"/>
+        <collection property="travellers" javaType="list" ofType="traveller"
+                    select="com.crazycode.mapper.TravellerMapper.selectByOid" column="id"/>
     </resultMap>
 
 

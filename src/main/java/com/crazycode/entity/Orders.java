@@ -50,6 +50,8 @@ public class Orders implements Serializable {
     private Product product;
     @TableField(exist = false)
     private Member member;
+    @TableField(exist = false)
+    private List<Traveller> travellers;
 
     public String getOrderTime() {
         SimpleDateFormat sdt = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

@@ -33,3 +33,7 @@ pagehelper:
   reasonable: true
   support-methods-arguments: true
 
+shiro:
+  loginUrl: /login.jsp
+  successUrl: /pages/main.jsp
+  unauthorizedUrl: /

@@ -33,7 +33,7 @@ public class OrderTest {
 
     @Test
     void select(){
-        Orders orders = ordersService.selectById(3);
+        Orders orders = ordersService.selectById(2);
         System.out.println(orders);
     }
 }

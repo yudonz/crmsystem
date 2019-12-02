@@ -6,6 +6,9 @@ import com.crazycode.entity.Role;
 import com.crazycode.entity.Users;
 import com.crazycode.service.IRoleService;
 import com.crazycode.service.IUsersService;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.*;
+import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -33,33 +36,6 @@ public class UsersController {
     private IRoleService roleService;
 
 
-    @PostMapping("/login.do")
-    public ModelAndView login(Users user, HttpSession session) {
-        QueryWrapper<Users> qw = new QueryWrapper<>();
-        qw.eq("username", user.getUsername())
-                .eq("password", user.getPassword());
-        Users one = usersService.getOne(qw);
-        ModelAndView mv = null;
-        if (one != null) {
-            System.out.println("登录成功");
-            mv = new ModelAndView("pages/main");
-            session.setAttribute("user", one);
-        } else {
-            System.out.println("登录失败");
-            mv = new ModelAndView("login");
-        }
-        return mv;
-    }
-
-    @GetMapping("/logout.do")
-    public String logout(HttpSession session) {
-        if (session != null) {
-            System.out.println("注销:");
-            System.out.println(session.getAttribute("user"));
-            session.invalidate();
-        }
-        return "login";
-    }
 
     @GetMapping("/user-list")
     public ModelAndView userList() {
@@ -111,7 +87,7 @@ public class UsersController {
     public String addRolesToUser(@RequestParam(value = "ids") List<String> rids, String userId) {
 
         boolean flag = usersService.addRolesToUser(rids, userId);
-        System.out.println("添加角色状态"+flag);
+        System.out.println("添加角色状态" + flag);
 
         return "redirect:/user/user-list";
     }

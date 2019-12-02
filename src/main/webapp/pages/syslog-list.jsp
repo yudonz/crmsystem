@@ -86,7 +86,7 @@
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
 				<li><a
-					href="${pageContext.request.contextPath}/sysLog/findAll.do">日志管理</a></li>
+					href="${pageContext.request.contextPath}/sysLog/findAll">日志管理</a></li>
 
 				<li class="active">全部日志</li>
 			</ol>
@@ -142,11 +142,11 @@
 								</tr>
 							</thead>
 							<tbody>
-								<c:forEach items="${sysLogs}" var="syslog">
+								<c:forEach items="${pageInfo.list}" var="syslog">
 									<tr>
 										<td><input name="ids" type="checkbox"></td>
 										<td>${syslog.id}</td>
-										<td>${syslog.visitTimeStr }</td>
+										<td>${syslog.visitTime }</td>
 										<td>${syslog.username }</td>
 										<td>${syslog.ip }</td>
 										<td>${syslog.url}</td>
@@ -202,15 +202,15 @@
 
 					<div class="box-tools pull-right">
 						<ul class="pagination">
-							<li><a href="#" aria-label="Previous">首页</a></li>
-							<li><a href="#">上一页</a></li>
+							<li><a href="${pageContext.request.contextPath}/sysLog/findAll/1/${pageInfo.pageSize}" aria-label="Previous">首页</a></li>
+							<li><a href="${pageContext.request.contextPath}/sysLog/findAll/${pageInfo.prePage}/${pageInfo.pageSize}">上一页</a></li>
 							<li><a href="#">1</a></li>
 							<li><a href="#">2</a></li>
 							<li><a href="#">3</a></li>
 							<li><a href="#">4</a></li>
 							<li><a href="#">5</a></li>
-							<li><a href="#">下一页</a></li>
-							<li><a href="#" aria-label="Next">尾页</a></li>
+							<li><a href="${pageContext.request.contextPath}/sysLog/findAll/${pageInfo.nextPage}/${pageInfo.pageSize}">下一页</a></li>
+							<li><a href="${pageContext.request.contextPath}/sysLog/findAll/${pageInfo.pages}/${pageInfo.pageSize}" aria-label="Next">尾页</a></li>
 						</ul>
 					</div>
 

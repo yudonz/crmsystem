@@ -51,7 +51,7 @@
 					</a></li>
 					<li id="system-setting">
 						<a
-						href="${pageContext.request.contextPath}/pages/syslog-list.jsp"> <i
+						href="${pageContext.request.contextPath}/sysLog/findAll/1/10"> <i
 							class="fa fa-circle-o"></i> 访问日志
 					</a>
 					</li>
