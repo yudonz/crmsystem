@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.crazycode.mapper.UsersMapper">
+
+    <select id="selectById" resultMap="u_map">
+        select id,email,username,password,phoneNum,status from users where id = #{id}
+    </select>
+    <resultMap id="u_map" type="users">
+        <id property="id" column="id"/>
+        <result property="email" column="email"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="phoneNum" column="phoneNum"/>
+        <result property="status" column="status"/>
+        <collection property="roles" javaType="list" ofType="role" select="com.crazycode.mapper.RoleMapper.selectByUid"
+                    column="id">
+        </collection>
+    </resultMap>
+
+    <insert id="addRoleToUser">
+        insert into users_role(userId,roleId) values ( #{param1},#{param2})
+    </insert>
+
+
+    <delete id="deleteRoleFromUser">
+        delete from users_role where userId=#{param1} and roleId=#{param2}
+    </delete>
+
+
+</mapper>

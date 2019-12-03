@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="crmsystem_jsp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2a2705f-b74b-450f-9158-f2b419eb7fb0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crazycode/advice/Advice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/advice/Advice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crazycode/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crazycode/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crazycode/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crazycode/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crazycode/UserTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crm: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-config" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U6YwKHfErRcOlOrEyeR6wyIz1E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\第三阶段项目\crmsystem_jsp\src\main" />
+      <recent name="E:\第三阶段项目\crmsystem_jsp\src\main\resources" />
+      <recent name="E:\第三阶段项目\crmsystem_jsp\src\main\java\com\crazycode\mapper" />
+      <recent name="E:\第三阶段项目\crmsystem_jsp\src\main\java\com\crazycode\pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.27">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crazycode.CodeGenerator" />
+      <module name="crmsystem_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crazycode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crazycode.util.MD5Util" />
+      <module name="crmsystem_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crazycode.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crmsystem_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crazycode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.crazycode" />
+      <option name="MAIN_CLASS_NAME" value="com.crazycode.LogTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crmsystem_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crazycode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.crazycode" />
+      <option name="MAIN_CLASS_NAME" value="com.crazycode.OrderTest" />
+      <option name="METHOD_NAME" value="select" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.pwd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crmsystem_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crazycode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.crazycode" />
+      <option name="MAIN_CLASS_NAME" value="com.crazycode.UserTest" />
+      <option name="METHOD_NAME" value="pwd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrmsystemJspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crmsystem_jsp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.crazycode.CrmsystemJspApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <deployment>
+        <artifact name="crmsystem_jsp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/crm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_crmsystem_jsp" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4147" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="crmsystem_jsp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_crmsystem_jsp" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4147" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="JUnit.OrderTest.select" />
+      <item itemvalue="JUnit.LogTest.test1" />
+      <item itemvalue="Spring Boot.CrmsystemJspApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.27" />
+      <item itemvalue="Application.MD5Util" />
+      <item itemvalue="JUnit.UserTest.pwd" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="JUnit.UserTest.pwd" />
+        <item itemvalue="JUnit.OrderTest.select" />
+        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="JUnit.LogTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.12446959" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2a2705f-b74b-450f-9158-f2b419eb7fb0" name="Default Changelist" comment="" />
+      <created>1574678749013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574678749013</updated>
+      <workItem from="1574678751247" duration="1402000" />
+      <workItem from="1574680266093" duration="924000" />
+      <workItem from="1574681226859" duration="3254000" />
+      <workItem from="1574684582339" duration="215000" />
+      <workItem from="1574685237790" duration="131000" />
+      <workItem from="1574685395575" duration="1399000" />
+      <workItem from="1574732569874" duration="33538000" />
+      <workItem from="1574818183798" duration="33264000" />
+      <workItem from="1574904799072" duration="23699000" />
+      <workItem from="1574936272351" duration="6865000" />
+      <workItem from="1574991092726" duration="848000" />
+      <workItem from="1574998590868" duration="1857000" />
+      <workItem from="1575255572766" duration="21384000" />
+      <workItem from="1575341215733" duration="14335000" />
+    </task>
+    <task id="LOCAL-00001" summary="创建项目">
+      <created>1574686683040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574686683040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="登录注册">
+      <created>1574745192249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574745192249</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2019年11月26日20:19:04 完成基本的user和role">
+      <created>1574770777173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574770777173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2019年11月27日20:45:29 完成 用户，角色，权限。">
+      <created>1574858774697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574858774698</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2019年11月28日18:25:04 完成产品，订单查询">
+      <created>1574936739440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574936739440</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2019年11月28日20:10:53 准备日志">
+      <created>1574943071519</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574943071519</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2019年12月2日20:22:31 完成shiro">
+      <created>1575289449244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575289449244</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建项目" />
+    <MESSAGE value="登录注册" />
+    <MESSAGE value="2019年11月26日20:19:04 完成基本的user和role" />
+    <MESSAGE value="2019年11月27日20:45:29 完成 用户，角色，权限。" />
+    <MESSAGE value="2019年11月28日18:25:04 完成产品，订单查询" />
+    <MESSAGE value="2019年11月28日20:10:53 准备日志" />
+    <MESSAGE value="2019年12月2日20:22:31 完成shiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年12月2日20:22:31 完成shiro" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="277" key="#com.intellij.ide.util.MemberChooser" timestamp="1575266348038">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="277" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1575266348038" />
+    <state x="502" y="45" key="CommitChangelistDialog2" timestamp="1575367372120">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="502" y="45" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1575367372120" />
+    <state width="1336" height="222" key="GridCell.Tab.0.bottom" timestamp="1575357146714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575357146714" />
+    <state width="1336" height="222" key="GridCell.Tab.0.center" timestamp="1575357146714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1575357146714" />
+    <state width="1336" height="222" key="GridCell.Tab.0.left" timestamp="1575357146713">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1575357146713" />
+    <state width="1336" height="222" key="GridCell.Tab.0.right" timestamp="1575357146714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1575357146714" />
+    <state width="1336" height="222" key="GridCell.Tab.1.bottom" timestamp="1575357146715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575357146715" />
+    <state width="1336" height="222" key="GridCell.Tab.1.center" timestamp="1575357146714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1575357146714" />
+    <state width="1336" height="222" key="GridCell.Tab.1.left" timestamp="1575357146714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1575357146714" />
+    <state width="1336" height="222" key="GridCell.Tab.1.right" timestamp="1575357146714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1575357146714" />
+    <state width="1336" height="222" key="GridCell.Tab.2.bottom" timestamp="1575357146715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575357146715" />
+    <state width="1336" height="222" key="GridCell.Tab.2.center" timestamp="1575357146715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1575357146715" />
+    <state width="1336" height="222" key="GridCell.Tab.2.left" timestamp="1575357146715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1575357146715" />
+    <state width="1336" height="222" key="GridCell.Tab.2.right" timestamp="1575357146715">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1336" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1575357146715" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575367395094">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1575367395094" />
+    <state x="432" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1575341221792">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="432" y="318" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1575341221792" />
+    <state x="170" y="130" key="new project wizard" timestamp="1575362956971">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="170" y="130" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1575362956971" />
+  </component>
+</project>

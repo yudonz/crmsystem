@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crm
+    username: root
+    password: 123456
+
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+    view:
+      prefix: /
+      suffix: .jsp
+
+  thymeleaf:
+    cache: false
+
+#mybatis:
+#  type-aliases-package: com.crazycode.pojo
+#  mapper-locations: classpath:com/crazycode/mapper/*.xml
+#  config-location: classpath:mybatis-config.xml
+
+
+mybatis-plus:
+  mapper-locations: crazycode/mapper/*.xml
+  type-aliases-package: com.crazycode.entity
+  configuration:
+    lazy-loading-enabled: false
+    map-underscore-to-camel-case: true
+
+pagehelper:
+  reasonable: true
+  support-methods-arguments: true
+
+shiro:
+  loginUrl: /login.jsp
+  successUrl: /pages/main.jsp
+  unauthorizedUrl: /

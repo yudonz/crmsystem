@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Administrator
+Build-Jdk: 1.8.0_131
+Implementation-Title: crmsystem_jsp
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.crazycode
+Main-Class: ${start-class}
+

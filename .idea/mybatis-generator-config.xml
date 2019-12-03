@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisGeneratorConfiguration">
+    <option name="credentials">
+      <map>
+        <entry key="jdbc:mysql://localhost:3306/crm">
+          <value>
+            <Credential>
+              <option name="username" value="root" />
+            </Credential>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="globalConfig">
+      <GlobalConfig>
+        <option name="domainPackage" value="com.crazycode.pojo" />
+        <option name="examplePackage" value="" />
+        <option name="examplePostfix" value="Example" />
+        <option name="lombokAnnotation" value="true" />
+        <option name="mapperPackage" value="com.crazycode.mapper" />
+        <option name="mapperPostfix" value="Mapper" />
+        <option name="moduleRootPath" value="$PROJECT_DIR$" />
+        <option name="resourcePath" value="src/main/resources" />
+        <option name="sourcePath" value="src/main/java" />
+        <option name="tablePrefix" value="" />
+        <option name="xmlPackage" value="com.crazycode.mapper" />
+      </GlobalConfig>
+    </option>
+    <option name="tableConfigs">
+      <map>
+        <entry key="member">
+          <value>
+            <TableConfig>
+              <option name="basePackage" value="" />
+              <option name="columnSettings">
+                <map>
+                  <entry key="name">
+                    <value>
+                      <ColumnSetting>
+                        <option name="changed" value="false" />
+                        <option name="column" value="name" />
+                        <option name="comment" value="????" />
+                        <option name="ignore" value="true" />
+                        <option name="javaProperty" value="name" />
+                        <option name="javaType" value="String" />
+                        <option name="jdbcType" value="VARCHAR" />
+                      </ColumnSetting>
+                    </value>
+                  </entry>
+                  <entry key="nickName">
+                    <value>
+                      <ColumnSetting>
+                        <option name="changed" value="false" />
+                        <option name="column" value="nickName" />
+                        <option name="comment" value="?ǳ" />
+                        <option name="ignore" value="true" />
+                        <option name="javaProperty" value="nickname" />
+                        <option name="javaType" value="String" />
+                        <option name="jdbcType" value="VARCHAR" />
+                      </ColumnSetting>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="domainName" value="Member" />
+              <option name="domainPackage" value="com.crazycode.pojo" />
+              <option name="exampleName" value="MemberExample" />
+              <option name="examplePackage" value="com.crazycode.mapper" />
+              <option name="examplePostfix" value="Example" />
+              <option name="lombokAnnotation" value="true" />
+              <option name="mapperName" value="MemberMapper" />
+              <option name="mapperPackage" value="com.crazycode.mapper" />
+              <option name="mapperPostfix" value="Mapper" />
+              <option name="moduleRootPath" value="$PROJECT_DIR$" />
+              <option name="mysql8" value="true" />
+              <option name="name" value="member" />
+              <option name="primaryKey" value="id" />
+              <option name="resourcePath" value="src/main/resources" />
+              <option name="sourcePath" value="src/main/java" />
+              <option name="tableName" value="member" />
+              <option name="xmlPackage" value="com.crazycode.mapper" />
+            </TableConfig>
+          </value>
+        </entry>
+        <entry key="order_traveller">
+          <value>
+            <TableConfig>
+              <option name="basePackage" value="" />
+              <option name="domainName" value="OrderTraveller" />
+              <option name="domainPackage" value="com.crazycode.mapper" />
+              <option name="exampleName" value="OrderTravellerExample" />
+              <option name="examplePackage" value="" />
+              <option name="examplePostfix" value="Example" />
+              <option name="lombokAnnotation" value="true" />
+              <option name="mapperName" value="OrderTravellerMapper" />
+              <option name="mapperPackage" value="com.crazycode.mapper" />
+              <option name="mapperPostfix" value="Mapper" />
+              <option name="moduleRootPath" value="$PROJECT_DIR$" />
+              <option name="name" value="order_traveller" />
+              <option name="primaryKey" value="orderId" />
+              <option name="resourcePath" value="src/main/resources" />
+              <option name="sourcePath" value="src/main/java" />
+              <option name="tableName" value="order_traveller" />
+              <option name="xmlPackage" value="mapper" />
+            </TableConfig>
+          </value>
+        </entry>
+        <entry key="role">
+          <value>
+            <TableConfig>
+              <option name="basePackage" value="" />
+              <option name="domainName" value="Role" />
+              <option name="domainPackage" value="com.crazycode.pojo" />
+              <option name="exampleName" value="RoleExample" />
+              <option name="examplePackage" value="" />
+              <option name="examplePostfix" value="Example" />
+              <option name="lombokAnnotation" value="true" />
+              <option name="mapperName" value="RoleMapper" />
+              <option name="mapperPackage" value="com.crazycode.mapper" />
+              <option name="mapperPostfix" value="Mapper" />
+              <option name="moduleRootPath" value="$PROJECT_DIR$" />
+              <option name="name" value="role" />
+              <option name="primaryKey" value="id" />
+              <option name="resourcePath" value="src/main/resources" />
+              <option name="sourcePath" value="src/main/java" />
+              <option name="tableName" value="role" />
+              <option name="xmlPackage" value="com.crazycode.mapper" />
+            </TableConfig>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

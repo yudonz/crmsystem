@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.crazycode.mapper.OrdersMapper">
+
+    <select id="selectById" resultMap="o_map">
+        select id,orderNum,orderTime,peopleCount,orderDesc,payType,orderStatus,productId,memberId from orders where id=#{id}
+    </select>
+
+    <select id="selectAll" resultMap="o_map">
+        select id,orderNum,orderTime,peopleCount,orderDesc,payType,orderStatus,productId,memberId from orders
+    </select>
+
+    <resultMap id="o_map" type="orders">
+        <id property="id" column="id"/>
+        <result property="orderNum" column="orderNum"/>
+        <result property="orderTime" column="orderTime"/>
+        <result property="peopleCount" column="peopleCount"/>
+        <result property="orderDesc" column="orderDesc"/>
+        <result property="payType" column="payType"/>
+        <result property="orderStatus" column="orderStatus"/>
+        <result property="productId" column="productId"/>
+        <result property="memberId" column="memberId"/>
+        <association property="product" select="com.crazycode.mapper.ProductMapper.selectById" column="productId"/>
+        <association property="member" select="com.crazycode.mapper.MemberMapper.selectById"
+                     column="memberId"/>
+        <collection property="travellers" javaType="list" ofType="traveller"
+                    select="com.crazycode.mapper.TravellerMapper.selectByOid" column="id"/>
+    </resultMap>
+
+
+</mapper>

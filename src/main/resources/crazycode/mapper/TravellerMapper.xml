@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.crazycode.mapper.TravellerMapper">
+
+
+    <select id="selectByOid" resultMap="t_map">
+        select id,name,sex,phoneNum,credentialsType,credentialsNum,travellerType
+        from traveller,order_traveller ot where id=ot.travellerId and ot.orderId= #{oid}
+    </select>
+
+    <resultMap id="t_map" type="traveller">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="phoneNum" column="phoneNum"/>
+        <result property="credentialsType" column="credentialsType"/>
+        <result property="credentialsNum" column="credentialsNum"/>
+        <result property="travellerType" column="travellerType"/>
+    </resultMap>
+</mapper>
