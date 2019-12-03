@@ -2,6 +2,7 @@ package com.crazycode.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.crazycode.entity.Users;
+import com.crazycode.exception.MyException;
 import com.crazycode.service.IUsersService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
@@ -55,8 +56,9 @@ public class Login {
             session.setAttribute("user", user1);
         } else {
             System.out.println("info:" + info);
-            mv = new ModelAndView("login");
-            return mv;
+            throw new MyException(info);
+//            mv = new ModelAndView("login");
+//            return mv;
         }
 //        QueryWrapper<Users> qw = new QueryWrapper<>();
 //        qw.eq("username", user.getUsername())
