@@ -1,3 +1,4 @@
+<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%-- <%@taglib prefix="security" uri="http://www.springframework.org/security/tags" %> --%>
@@ -35,12 +36,14 @@
 
 
 				<ul class="treeview-menu">
+					<shiro:hasAnyRoles name="admin">
 					<li id="system-setting">
 						<a
 						href="${pageContext.request.contextPath}/user/user-list"> <i
 							class="fa fa-circle-o"></i> 用户管理
 					</a>
 					</li>
+					</shiro:hasAnyRoles>
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/role/role-list/1/6"> <i
 							class="fa fa-circle-o"></i> 角色管理
@@ -64,15 +67,16 @@
 				</span>
 			</a>
 				<ul class="treeview-menu">
-
+					<shiro:hasAnyRoles name="admin,productManager">
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/product/product-list">
 							<i class="fa fa-circle-o"></i> 产品管理
-					</a></li>
+					</a></li></shiro:hasAnyRoles>
+					<shiro:hasAnyRoles name="admin,orderManager">
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/orders/order-list/1/6"> <i
 							class="fa fa-circle-o"></i> 订单管理
-					</a></li>
+					</a></li></shiro:hasAnyRoles>
 
 				</ul></li>
 

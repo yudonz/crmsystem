@@ -26,7 +26,7 @@ public class Advice {
     private long endTime;
 
     //代表包下的任意类:execution( * *.*()) 代表任意返回类型,任意包下,任意类的任意方法
-    @Pointcut("execution(* com.crazycode.controller..*.*(..)) && !execution(* com.crazycode.controller.UsersController.login(..)) ")
+    @Pointcut("execution(* com.crazycode.controller..*.*(..)) && !execution(* com.crazycode.controller.Login.login(..)) ")
     public void p1(){}
 
     @Before("p1()")

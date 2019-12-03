@@ -6,6 +6,7 @@ import com.crazycode.entity.Role;
 import com.crazycode.entity.Users;
 import com.crazycode.service.IRoleService;
 import com.crazycode.service.IUsersService;
+import com.crazycode.util.MD5Util;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.subject.Subject;
@@ -51,6 +52,7 @@ public class UsersController {
     public String save(Users user) {
         System.out.println("插入方法");
         System.out.println(user);
+        user.setPassword(MD5Util.md5hash(user.getPassword(),user.getUsername()));
         boolean save = usersService.save(user);
         if (save) {
             System.out.println("插入成功");

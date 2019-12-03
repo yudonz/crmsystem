@@ -3,6 +3,7 @@ package com.crazycode;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.crazycode.entity.Users;
 import com.crazycode.service.IUsersService;
+import com.crazycode.util.MD5Util;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,5 +60,16 @@ public class UserTest {
     public void addRole(){
 //        boolean b = usersService.addRoleToUser("1", "2");
 //        System.out.println(b);
+    }
+
+    @Test
+    public void pwd(){
+        Users user=usersService.getOne(new QueryWrapper<Users>().eq("id","a151fe9f-9f1e-11e9-a715-74d02bd4fd82"));
+        System.out.println(user);
+        user.setPassword("123");
+        user.setUsername("chenhao");
+        user.setPassword(MD5Util.md5hash(user.getPassword(),user.getUsername()));
+        usersService.updateById(user);
+        System.out.println(user);
     }
 }

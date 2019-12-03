@@ -46,6 +46,10 @@ public class Login {
 
         ModelAndView mv = null;
         if (info == null) {
+            Users user2 = (Users) session.getAttribute("user");
+            if (user2!=null){
+                System.out.println("session"+user2);
+            }
             mv = new ModelAndView("pages/main");
             Users user1= (Users) SecurityUtils.getSubject().getPrincipal();
             session.setAttribute("user", user1);

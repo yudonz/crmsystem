@@ -1,6 +1,9 @@
 package com.crazycode.config;
 
 import com.crazycode.realm.UserRealm;
+import org.apache.shiro.authc.credential.CredentialsMatcher;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.mgt.SessionsSecurityManager;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
@@ -20,8 +23,9 @@ public class ShiroConfig {
 
     /*在容器中创建一个UserRealm对象*/
     @Bean
-    public Realm userRealm() throws Exception{
+    public Realm userRealm(CredentialsMatcher hashedCredentialsMatcher ) throws Exception{
         UserRealm userRealm = new UserRealm();
+        userRealm.setCredentialsMatcher(hashedCredentialsMatcher);
         return userRealm;
     }
 
@@ -48,5 +52,18 @@ public class ShiroConfig {
         return shiroFilterChainDefinition;
     }
 
+    /**
+     * 配置一个CredentialsMatcher类型的加密对象
+     * 当调用自定义realm验证方法的时候,会把表单传过来的密码交给HashedCredentialsMatcher来进行加密,加密后
+     * 会和数据库中的密码进行比对
+     */
+    @Bean
+    public CredentialsMatcher hashedCredentialsMatcher() throws Exception{
+        System.out.println("执行了密码匹配...");
+        HashedCredentialsMatcher credentialsMatcher = new HashedCredentialsMatcher();
+        credentialsMatcher.setHashAlgorithmName(Md5Hash.ALGORITHM_NAME);// 设置加密算法类型
+        credentialsMatcher.setHashIterations(1024);//设置加密次数
+        return credentialsMatcher;
+    }
 
 }
