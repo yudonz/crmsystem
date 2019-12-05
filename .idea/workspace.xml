@@ -7,14 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2a2705f-b74b-450f-9158-f2b419eb7fb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/exception/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/exception/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/LuceneInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/config/LuceneConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/dao/LuceneMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/dao/impl/LuceneMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/service/LuceneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/service/impl/LuceneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/crm.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crazycode/Index/text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/crmsystem_jsp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/crmsystem_jsp_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crazycode/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/403.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crazycode/controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crazycode/controller/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/403.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/WEB-INF/classes/com/crazycode/controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/WEB-INF/classes/com/crazycode/controller/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crmsystem_jsp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crmsystem_jsp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crazycode/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crazycode/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crazycode/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/crazycode/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/crazycode/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/product-list1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/product-list1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crazycode/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crazycode/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crazycode/mapper/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crazycode/mapper/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crazycode/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crazycode/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/WEB-INF/classes/com/crazycode/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/WEB-INF/classes/com/crazycode/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/WEB-INF/classes/com/crazycode/mapper/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/WEB-INF/classes/com/crazycode/mapper/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/WEB-INF/classes/crazycode/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/WEB-INF/classes/crazycode/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/pages/product-list1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/crmsystem_jsp-0.0.1-SNAPSHOT/pages/product-list1.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +70,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="mybatis-config" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -94,7 +110,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/springboot_lucene/springboot_lucene" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -107,6 +123,13 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\第三阶段项目\crmsystem_jsp\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.crazycode.mapper" />
+      <recent name="com.crazycode.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\第三阶段项目\crmsystem_jsp\src\main" />
       <recent name="E:\第三阶段项目\crmsystem_jsp\src\main\resources" />
@@ -115,19 +138,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.27">
-    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.crazycode.CodeGenerator" />
-      <module name="crmsystem_jsp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crazycode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.crazycode.util.MD5Util" />
       <module name="crmsystem_jsp" />
@@ -137,38 +147,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crmsystem_jsp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crazycode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.crazycode" />
-      <option name="MAIN_CLASS_NAME" value="com.crazycode.LogTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crmsystem_jsp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crazycode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.crazycode" />
-      <option name="MAIN_CLASS_NAME" value="com.crazycode.OrderTest" />
-      <option name="METHOD_NAME" value="select" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,6 +162,54 @@
       <option name="PACKAGE_NAME" value="com.crazycode" />
       <option name="MAIN_CLASS_NAME" value="com.crazycode.UserTest" />
       <option name="METHOD_NAME" value="pwd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crmsystem_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crazycode.Index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.crazycode.Index" />
+      <option name="MAIN_CLASS_NAME" value="com.crazycode.Index.text" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crmsystem_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crazycode.Index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.crazycode.Index" />
+      <option name="MAIN_CLASS_NAME" value="com.crazycode.Index.text" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text.search2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crmsystem_jsp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crazycode.Index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.crazycode.Index" />
+      <option name="MAIN_CLASS_NAME" value="com.crazycode.Index.text" />
+      <option name="METHOD_NAME" value="search2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -330,21 +356,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodeGenerator" />
-      <item itemvalue="JUnit.OrderTest.select" />
-      <item itemvalue="JUnit.LogTest.test1" />
-      <item itemvalue="Spring Boot.CrmsystemJspApplication" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.27" />
       <item itemvalue="Application.MD5Util" />
       <item itemvalue="JUnit.UserTest.pwd" />
+      <item itemvalue="Spring Boot.CrmsystemJspApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.27" />
+      <item itemvalue="JUnit.text.create" />
+      <item itemvalue="JUnit.text.search" />
+      <item itemvalue="JUnit.text.search2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.text.search2" />
+        <item itemvalue="JUnit.text.search" />
+        <item itemvalue="JUnit.text.create" />
         <item itemvalue="Application.MD5Util" />
         <item itemvalue="JUnit.UserTest.pwd" />
-        <item itemvalue="JUnit.OrderTest.select" />
-        <item itemvalue="Application.CodeGenerator" />
-        <item itemvalue="JUnit.LogTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +420,8 @@
       <workItem from="1574991092726" duration="848000" />
       <workItem from="1574998590868" duration="1857000" />
       <workItem from="1575255572766" duration="21384000" />
-      <workItem from="1575341215733" duration="16519000" />
+      <workItem from="1575341215733" duration="16773000" />
+      <workItem from="1575524521172" duration="12756000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1574686683040</created>
@@ -459,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575367495307</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2019年12月3日19:58:01 完成异常类的添加">
+      <created>1575374288870</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575374288870</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,69 +521,74 @@
     <MESSAGE value="2019年11月28日20:10:53 准备日志" />
     <MESSAGE value="2019年12月2日20:22:31 完成shiro" />
     <MESSAGE value="2019年12月3日18:02:34 完成shiro授权加密" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019年12月3日18:02:34 完成shiro授权加密" />
+    <MESSAGE value="2019年12月3日19:58:01 完成异常类的添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年12月3日19:58:01 完成异常类的添加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="277" key="#com.intellij.ide.util.MemberChooser" timestamp="1575266348038">
+    <state x="0" y="277" key="#com.intellij.ide.util.MemberChooser" timestamp="1575536055548">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="0" y="277" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1575266348038" />
-    <state x="502" y="45" key="CommitChangelistDialog2" timestamp="1575367485812">
+    <state x="0" y="277" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1575536055548" />
+    <state x="502" y="45" key="CommitChangelistDialog2" timestamp="1575374287076">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="502" y="45" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1575367485812" />
-    <state width="655" height="222" key="GridCell.Tab.0.bottom" timestamp="1575374214622">
+    <state x="502" y="45" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1575374287076" />
+    <state x="547" y="186" key="FileChooserDialogImpl" timestamp="1575531587899">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575374214622" />
-    <state width="655" height="222" key="GridCell.Tab.0.center" timestamp="1575374214621">
+    <state x="547" y="186" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1575531587899" />
+    <state width="1336" height="222" key="GridCell.Tab.0.bottom" timestamp="1575543249130">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1575374214621" />
-    <state width="655" height="222" key="GridCell.Tab.0.left" timestamp="1575374214621">
+    <state width="1336" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575543249130" />
+    <state width="1336" height="222" key="GridCell.Tab.0.center" timestamp="1575543249130">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1575374214621" />
-    <state width="655" height="222" key="GridCell.Tab.0.right" timestamp="1575374214621">
+    <state width="1336" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1575543249130" />
+    <state width="1336" height="222" key="GridCell.Tab.0.left" timestamp="1575543249130">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1575374214621" />
-    <state width="655" height="222" key="GridCell.Tab.1.bottom" timestamp="1575374214623">
+    <state width="1336" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1575543249130" />
+    <state width="1336" height="222" key="GridCell.Tab.0.right" timestamp="1575543249130">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575374214623" />
-    <state width="655" height="222" key="GridCell.Tab.1.center" timestamp="1575374214622">
+    <state width="1336" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1575543249130" />
+    <state width="1336" height="222" key="GridCell.Tab.1.bottom" timestamp="1575543249131">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1575374214622" />
-    <state width="655" height="222" key="GridCell.Tab.1.left" timestamp="1575374214622">
+    <state width="1336" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575543249131" />
+    <state width="1336" height="222" key="GridCell.Tab.1.center" timestamp="1575543249131">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1575374214622" />
-    <state width="655" height="222" key="GridCell.Tab.1.right" timestamp="1575374214622">
+    <state width="1336" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1575543249131" />
+    <state width="1336" height="222" key="GridCell.Tab.1.left" timestamp="1575543249131">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1575374214622" />
-    <state width="655" height="222" key="GridCell.Tab.2.bottom" timestamp="1575374214623">
+    <state width="1336" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1575543249131" />
+    <state width="1336" height="222" key="GridCell.Tab.1.right" timestamp="1575543249131">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575374214623" />
-    <state width="655" height="222" key="GridCell.Tab.2.center" timestamp="1575374214623">
+    <state width="1336" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1575543249131" />
+    <state width="1336" height="222" key="GridCell.Tab.2.bottom" timestamp="1575543249131">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1575374214623" />
-    <state width="655" height="222" key="GridCell.Tab.2.left" timestamp="1575374214623">
+    <state width="1336" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1575543249131" />
+    <state width="1336" height="222" key="GridCell.Tab.2.center" timestamp="1575543249131">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1575374214623" />
-    <state width="655" height="222" key="GridCell.Tab.2.right" timestamp="1575374214623">
+    <state width="1336" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1575543249131" />
+    <state width="1336" height="222" key="GridCell.Tab.2.left" timestamp="1575543249130">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="655" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1575374214623" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575367494305">
+    <state width="1336" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1575543249130" />
+    <state width="1336" height="222" key="GridCell.Tab.2.right" timestamp="1575543249131">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1575367494305" />
+    <state width="1336" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1575543249131" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1575374296977">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1575374296977" />
     <state x="432" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1575341221792">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -558,5 +597,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="170" y="130" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1575362956971" />
+    <state x="0" y="112" key="refactoring.ChangeSignatureDialog" timestamp="1575535490422">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="112" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1575535490422" />
   </component>
 </project>

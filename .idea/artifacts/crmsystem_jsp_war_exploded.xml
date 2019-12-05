@@ -14,6 +14,12 @@
           <element id="module-output" name="crmsystem_jsp" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.jianggujin:IKAnalyzer-lucene:8.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:8.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:8.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:8.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:8.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:8.0.0" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring-boot-web-starter:1.4.2" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring-boot-starter:1.4.2" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.4.2" />

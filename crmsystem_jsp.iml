@@ -30,6 +30,12 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.jianggujin:IKAnalyzer-lucene:8.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:8.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:8.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:8.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:8.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:8.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring-boot-web-starter:1.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring-boot-starter:1.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring:1.4.2" level="project" />

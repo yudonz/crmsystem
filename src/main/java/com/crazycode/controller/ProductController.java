@@ -4,13 +4,16 @@ package com.crazycode.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.crazycode.entity.Product;
 import com.crazycode.service.IProductService;
+import com.crazycode.service.LuceneService;
 import com.sun.org.apache.xpath.internal.operations.Mod;
+import org.apache.lucene.queryparser.classic.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import org.springframework.web.servlet.ModelAndView;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -26,6 +29,8 @@ import java.util.List;
 public class ProductController {
     @Autowired
     private IProductService productService;
+    @Autowired
+    private LuceneService luceneService;
 
     @GetMapping("/product-list")
     public ModelAndView productList(){
@@ -86,5 +91,13 @@ public class ProductController {
             System.out.println("关闭失败");
         }
         return "redirect:/product/product-list";
+    }
+
+    @PostMapping("/search")
+    public ModelAndView search(@RequestParam("search") String search) throws IOException, ParseException {
+        List<Product> list = luceneService.searchProduct(search);
+        ModelAndView mv=new ModelAndView("pages/product-list1");
+        mv.addObject("products",list);
+        return mv;
     }
 }

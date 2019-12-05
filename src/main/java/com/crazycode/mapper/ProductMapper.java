@@ -3,6 +3,8 @@ package com.crazycode.mapper;
 import com.crazycode.entity.Product;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
+import java.util.List;
+
 /**
  * <p>
  *  Mapper 接口
@@ -14,4 +16,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 public interface ProductMapper extends BaseMapper<Product> {
 
     Product selectById(String id);
+    List<Product> selectAll();
 }

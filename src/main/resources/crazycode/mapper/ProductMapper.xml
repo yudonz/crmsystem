@@ -5,4 +5,8 @@
     <select id="selectById" resultType="product">
         select id,productNum,productName,cityName,DepartureTime,productPrice,productDesc,productStatus from product where id=#{id}
     </select>
+
+    <select id="selectAll" resultType="product">
+        select id,productNum,productName,cityName,DepartureTime,productPrice,productDesc,productStatus from product
+    </select>
 </mapper>
